@@ -10,7 +10,7 @@ use:
   '.\lot\x\page': 1
 ...
 
-This extension automatically creates a `time.data` file if it does not exist on a particular page folder to ensure that
-the page creation time data remains consistent when you move pages from server to local and vice-versa, across operating
-systems. You don’t need this extension if you are used to creating pages via
-[Panel](https://github.com/mecha-cms/x.panel) extension.
+This extension automatically generates a `time.data` file if it does not exist on a particular page folder to ensure
+that the page creation time data remains consistent when you move pages across file systems. You don’t need this
+extension if you are used to creating pages via [Panel](https://github.com/mecha-cms/x.panel) extension. It will
+generate the file for you every time you create a new page.
