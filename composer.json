@@ -1,0 +1,8 @@
+{
+  "description": "Automatically creates page time data if it does not exist.",
+  "license": "GPL-3.0-or-later",
+  "name": "mecha-cms/x.time",
+  "require": {
+    "mecha-cms/x.page": "^3.0.0"
+  }
+}
