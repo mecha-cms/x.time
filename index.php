@@ -1,7 +1,7 @@
 <?php
 
 $path = trim($url->path ?? "", '/');
-$path = trim("" !== $path ? $path : ($state->route ?? '/index'), '/');
+$path = trim("" !== $path ? $path : ($state->route ?? 'index'), '/');
 
 $folder = LOT . D . 'page' . D . $path;
 $file = exist([
