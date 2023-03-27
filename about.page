@@ -6,9 +6,6 @@ color: '#640548'
 author: Taufik Nurrohman
 type: Markdown
 version: 1.0.0
-
-use:
-  '.\lot\x\page': 1
 ...
 
 This extension automatically generates a `time.data` file if it does not exist on a particular page folder to ensure
