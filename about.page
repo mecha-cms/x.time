@@ -1,6 +1,6 @@
 ---
 title: Time
-description: Generates page time data if it does not exist.
+description: Creates page time data if it does not exist.
 icon: 'M4 2A2 2 0 0 0 2 4V20A2 2 0 0 0 4 22H12.41A7 7 0 0 0 16 23A7 7 0 0 0 23 16A7 7 0 0 0 18 9.3V8L12 2H4M4 4H11V9H16A7 7 0 0 0 9 16A7 7 0 0 0 10.26 20H4V4M16 11A5 5 0 0 1 21 16A5 5 0 0 1 16 21A5 5 0 0 1 11 16A5 5 0 0 1 16 11M15 12V17L18.61 19.16L19.36 17.94L16.5 16.25V12H15Z'
 color: '#640548'
 author: Taufik Nurrohman
@@ -8,7 +8,7 @@ type: Markdown
 version: 1.0.0
 ...
 
-This extension automatically generates a `time.data` file if it does not exist on a particular page folder to ensure
-that the page creation time data remains consistent when you move pages across file systems. You don’t need this
-extension if you are used to creating pages via [Panel](https://github.com/mecha-cms/x.panel) extension. It will
-generate the file for you every time you create a new page.
+This extension automatically creates a `time.data` file if it does not exist in a particular page folder to ensure that
+the page creation time data remains consistent when you move pages across file systems. You don’t need this extension if
+you are used to creating pages using the [Panel](https://github.com/mecha-cms/x.panel) extension. It will create the
+file for you each time you create a new page.
