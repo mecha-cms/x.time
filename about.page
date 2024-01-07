@@ -5,7 +5,7 @@ icon: 'M4 2A2 2 0 0 0 2 4V20A2 2 0 0 0 4 22H12.41A7 7 0 0 0 16 23A7 7 0 0 0 23 1
 color: '#640548'
 author: Taufik Nurrohman
 type: Markdown
-version: 1.0.0
+version: 1.0.1
 ...
 
 This extension automatically creates a `time.data` file if it does not exist in a particular page folder to ensure that
